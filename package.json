@@ -27,7 +27,7 @@
     "test:ci": "jest"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.2",
+    "@babel/runtime": "^7.12.5",
     "@carbon/icons-react": "^10.18.0",
     "@formatjs/intl-pluralrules": "^1.2.1",
     "@tektoncd/dashboard-components": "file:./packages/components",
