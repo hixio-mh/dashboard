@@ -32,7 +32,7 @@
     "@formatjs/intl-pluralrules": "^1.2.1",
     "@tektoncd/dashboard-components": "file:./packages/components",
     "@tektoncd/dashboard-utils": "file:./packages/utils",
-    "carbon-components": "^10.20.0",
+    "carbon-components": "^10.24.0",
     "carbon-components-react": "^7.20.0",
     "carbon-icons": "^7.0.7",
     "classnames": "^2.2.6",
