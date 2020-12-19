@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.2",
-    "@carbon/icons-react": "^10.18.0",
+    "@carbon/icons-react": "^10.21.0",
     "@formatjs/intl-pluralrules": "^1.2.1",
     "@tektoncd/dashboard-components": "file:./packages/components",
     "@tektoncd/dashboard-utils": "file:./packages/utils",
