@@ -19,7 +19,7 @@
     "@formatjs/intl-relativetimeformat": "^4.5.12",
     "@tektoncd/dashboard-utils": "file:../utils",
     "@vx/event": "0.0.192",
-    "@vx/network": "0.0.192",
+    "@vx/network": "0.0.199",
     "d3-path": "^1.0.8",
     "elkjs": "^0.5.1",
     "js-yaml": "^3.13.0",
