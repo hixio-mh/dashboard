@@ -1,0 +1,224 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - concurrently > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - eslint > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - eslint-plugin-notice > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - html-webpack-plugin > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - webpack-merge > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/core > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-eslint > @babel/types > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-plugin-react-intl > @babel/types > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/core > @babel/generator > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/core > @babel/traverse > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-plugin-react-intl > @babel/core > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/client-api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > @storybook/client-api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/components > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > @storybook/components > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/components > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/components > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/source-loader > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - eslint > table > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@tektoncd/dashboard-utils > @babel/cli > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@tektoncd/dashboard-components > @babel/cli > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/plugin-transform-runtime > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-plugin-react-intl > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-plugin-react-intl > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - babel-plugin-react-intl > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/api > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > @storybook/api > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/api > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/api > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/csf > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/addons > @storybook/api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/client-api > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/components > react-color > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/components > react-color > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/components > react-color > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/components > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/register > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-react > @babel/plugin-transform-react-pure-annotations > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/generator > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/traverse > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > @jest/transform > @babel/core > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/components > react-color > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - lerna > @lerna/clean > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-knobs > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addons > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-actions > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-storysource > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/addon-viewport > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - '@storybook/react > @storybook/core > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:47:50.627Z'
+    - jest > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-04-04T11:47:50.627Z'

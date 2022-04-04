@@ -17,14 +17,15 @@
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "postinstall": "npm run bootstrap",
-    "prepare": "lerna run prepare",
+    "prepare": "npm run snyk-protect && lerna run prepare",
     "start": "webpack-dev-server --hot --config webpack.dev.js",
     "start:watch": "concurrently -k -n \"webpack,bootstrap\" -c \"cyan,magenta\" npm:start npm:bootstrap:watch",
     "storybook": "start-storybook -p 5000",
     "storybook:build": "build-storybook",
     "storybook:deploy": "storybook-to-ghpages",
     "test": "jest --watch",
-    "test:ci": "jest"
+    "test:ci": "jest",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.2",
@@ -56,7 +57,8 @@
     "reconnecting-websocket": "^4.4.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "regenerator-runtime": "^0.13.5"
+    "regenerator-runtime": "^0.13.5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
@@ -119,5 +121,6 @@
   "engines": {
     "node": "^14.13.0",
     "npm": "^6.14.4"
-  }
+  },
+  "snyk": true
 }
