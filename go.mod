@@ -12,7 +12,7 @@ replace (
 )
 
 require (
-	github.com/emicklei/go-restful v2.12.0+incompatible
+	github.com/emicklei/go-restful v2.16.0+incompatible
 	github.com/google/go-cmp v0.5.0
 	github.com/gorilla/csrf v1.7.0
 	github.com/gorilla/websocket v1.4.2
